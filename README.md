@@ -76,3 +76,28 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+Laravel commands :
+
+To start the migration: 
+$php artisan migrate 
+
+To check the routes defined:
+ 	$php artisan route:list 
+
+Create migration
+ $php artisan make:migration create_users_table 
+
+Create controller
+ 	$php artisan make:controller ProfileController 
+
+Creating model 
+$php artisan make:model Product -m
+
+ Seeder for dummy data 
+$php artisan make:seeder ProductsTableSeeder 
+$php artisan migrate --seed 
+
+Start server
+ $php artisan serve
