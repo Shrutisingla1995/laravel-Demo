@@ -64,14 +64,6 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            <div class="content">
-                <h3>
-                  Profile
-                </h3>
-                <div>Name: Shruti Singla</div>
-                <div>Branch: IT</div>
-            </div>
-        </div>
+       <img src="' . url("101805-garden2.jpg") . '" width="100px" height="100px" />
     </body>
 </html>

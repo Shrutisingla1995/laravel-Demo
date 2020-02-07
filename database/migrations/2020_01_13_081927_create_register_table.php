@@ -19,6 +19,12 @@ class CreateRegisterTable extends Migration
             $table->string('branch');
             $table->string('email');
             $table->string('password');
+            $table->string('about');
+            $table->string('address');
+            $table->string('Profile');
+            $table->string('Photos');
+            $table->string('contact');
+            $table->timestamps();
         });
     }
 
